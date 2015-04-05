@@ -5,12 +5,12 @@ import static java.lang.Math.max;
  */
 public class TreeHeightDeterminer {
 
-    public int determine(Node node) {
+    public int determineHeight(Node node) {
         if (node == null) {
             return 0;
         }
 
-        return max(determine(node.left), determine(node.right)) + 1;
+        return max(determineHeight(node.left), determineHeight(node.right)) + 1;
     }
 
     public static void main(String[] args) {
@@ -38,7 +38,7 @@ public class TreeHeightDeterminer {
 
 
         TreeHeightDeterminer treeHeightDeterminer = new TreeHeightDeterminer();
-        int height = treeHeightDeterminer.determine(root);
+        int height = treeHeightDeterminer.determineHeight(root);
 
         System.out.println("Height: "+ height);
     }
