@@ -7,10 +7,4 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>Datastructures and algorithms</description>
-    <url>http://repo.release.cerner.corp/main/site/${project.groupId}/${project.artifactId}/${project.version}</url>
-    <inceptionYear>2012</inceptionYear>
-    <organization>
-        <name>Cerner Corporation</name>
-        <url>http://www.cerner.com/</url>
-    </organization>
 </project>
