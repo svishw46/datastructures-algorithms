@@ -117,11 +117,4 @@ public class SmallestSubstringDeterminer {
             charToCountMap.put(eachChar, count);
         }
     }
-
-    public static void main(String[] args) {
-        SmallestSubstringDeterminer smallestSubstringDeterminer = new SmallestSubstringDeterminer();
-
-        String result = smallestSubstringDeterminer.determine("this is a test string", "tist");
-        System.out.println(result);
-    }
 }
